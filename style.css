@@ -53,10 +53,16 @@ header {
 }
 
 .hero {
-	position: absolute;
-	top: 100px;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	position: relative;
+	color: white;
+	text-align: center;
 }
+
 
 h1 {
 	font-family: "Roboto", sans-serif;
@@ -198,4 +204,5 @@ input[type=number]::-webkit-inner-spin-button,
   	.faq {
     	background-image: url(assets/img-prop-type@2x.jpg) !important;
   	}
+	 
 }
